@@ -1,2 +1,2 @@
 # Catan-Tile-Generator
-Generates random tiles for the Catan board gaem
+Generates random tiles for the Catan board game
