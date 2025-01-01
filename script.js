@@ -24,6 +24,17 @@ function shuffle(array) {
 shuffle(tiles);
 
 // Function to display tiles one by one
+let index = 0;
+function displayNextTile() {
+    if (index < tiles.length) {
+        const tile = tiles[index];
+        resultText.textContent = tile;
+        index++;
+    } else {
+        resultText.textContent = "All tiles have been displayed! Please reload the page to shuffle again!";
+    }
+}
+
 
 quoteBtn.addEventListener('click', () => {
 
