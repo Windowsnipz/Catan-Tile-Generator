@@ -26,9 +26,10 @@ shuffle(tiles);
 // Function to display tiles one by one
 let index = 0;
 function displayNextTile() {
+    outputDiv.classList.add('section');
     if (index < tiles.length) {
         const tile = tiles[index];
-        resultText.textContent = tile;
+        resultText.textContent = "#" + (index + 1) + " " + tile;
         index++;
     } else {
         resultText.textContent = "All tiles have been displayed! Please reload the page to shuffle again!";
