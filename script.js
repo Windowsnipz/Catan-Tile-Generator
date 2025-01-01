@@ -22,7 +22,12 @@ quoteBtn.addEventListener('click', () => {
             [array[i], array[j]] = [array [j], array[i]];
         }
     }
+
+    // Shuffle the tiles
+    shuffle(tiles);
+
     
+
 
 
     fetch('https://api.kanye.rest/')
