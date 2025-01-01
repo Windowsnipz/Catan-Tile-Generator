@@ -23,12 +23,9 @@ function shuffle(array) {
 // Shuffle the tiles
 shuffle(tiles);
 
+// Function to display tiles one by one
 
 quoteBtn.addEventListener('click', () => {
-
-
-    // Display
-
 
 
     fetch('https://api.kanye.rest/')
